@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(0,153,204);
+}
+
+.stress {
+    background-image: url("image/stress.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  color: rgb(255, 255, 255, 1);
+  background: rgb(0, 0, 0, 0.85);
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.help {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.games {
+    background-image: url("image/stressreduction.jpg");
+
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 75px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px;
+}
+
+
+.main1{
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    text-indent: 50px;
+    font-weight: normal;
+    
+}
+
+.main2, a:link, a:visited {
+    text-decoration: none!important;
+    color: black;
+
+}
+
+a:link{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main2 {
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    text-indent: 50px;
+}
+
+.main3 {
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    text-indent: 50px;
+}
+
+.forward h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.forward p {
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    text-indent: 50px;
+    padding-bottom: 100px;
+}
+
+.name {
+    font-size: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
